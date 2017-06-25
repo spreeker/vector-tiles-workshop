@@ -31,7 +31,7 @@ var style_object = {
         "fill-outline-color": "#95c6d5"
       }
     },
-    { 
+    {
       "id": "haven",
       "type": "fill",
       "source": "wm_vector",
@@ -43,7 +43,7 @@ var style_object = {
         "fill-outline-color": "#95c6d5"
       }
     },
-    { 
+    {
       "id": "terein_aanlegsteiger",
       "type": "fill",
       "source": "wm_vector",
@@ -55,7 +55,7 @@ var style_object = {
         "fill-outline-color": "#acacac"
       }
     },
-    { 
+    {
       "id": "terein_basaltblokken_steenglooiing",
       "type": "fill",
       "source": "wm_vector",
@@ -67,7 +67,7 @@ var style_object = {
         "fill-outline-color": "#f6f6f4"
       }
     },
-    { 
+    {
       "id": "terein_grasland",
       "type": "fill",
       "source": "wm_vector",
@@ -79,7 +79,7 @@ var style_object = {
         "fill-outline-color": "#dceacf"
       }
     },
-    { 
+    {
       "id": "terein_akkerland",
       "type": "fill",
       "source": "wm_vector",
@@ -91,7 +91,7 @@ var style_object = {
         "fill-outline-color": "#dceacf"
       }
     },
-    { 
+    {
       "id": "terein_openbaar_groen",
       "type": "fill",
       "source": "wm_vector",
@@ -115,7 +115,7 @@ var style_object = {
         "fill-outline-color": "#cbe0b8"
       }
     },
-    { 
+    {
       "id": "terein_spoorbaanlichaam",
       "type": "fill",
       "source": "wm_vector",
@@ -127,7 +127,7 @@ var style_object = {
         "fill-outline-color": "#fff"
       }
     },
-    { 
+    {
       "id": "terein_bos-loofbos",
       "type": "fill",
       "source": "wm_vector",
@@ -139,7 +139,7 @@ var style_object = {
         "fill-outline-color": "#cbe0b8"
       }
     },
-    { 
+    {
       "id": "terein_bos-gemengd_bos",
       "type": "fill",
       "source": "wm_vector",
@@ -151,7 +151,7 @@ var style_object = {
         "fill-outline-color": "#cbe0b8"
       }
     },
-    { 
+    {
       "id": "terein_bos-griend",
       "type": "fill",
       "source": "wm_vector",
@@ -163,7 +163,7 @@ var style_object = {
         "fill-outline-color": "#cbe0b8"
       }
     },
-    { 
+    {
       "id": "terein_boomgaard",
       "type": "fill",
       "source": "wm_vector",
@@ -175,7 +175,7 @@ var style_object = {
         "fill-outline-color": "#d4e5c4"
       }
     },
-    { 
+    {
       "id": "terein_boomkwekerij",
       "type": "fill",
       "source": "wm_vector",
@@ -187,7 +187,7 @@ var style_object = {
         "fill-outline-color": "#d4e5c4"
       }
     },
-    { 
+    {
       "id": "terein_dodenakker",
       "type": "fill",
       "source": "wm_vector",
@@ -199,7 +199,7 @@ var style_object = {
         "fill-outline-color": "#d4e5c4"
       }
     },
-    { 
+    {
       "id": "terein_dodenakker_met_bos",
       "type": "fill",
       "source": "wm_vector",
@@ -211,7 +211,7 @@ var style_object = {
         "fill-outline-color": "#d4e5c4"
       }
     },
-    { 
+    {
       "id": "terein_fruitkwekerij",
       "type": "fill",
       "source": "wm_vector",
@@ -303,7 +303,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "waterbassin",
       "type": "fill",
       "source": "wm_vector",
@@ -348,7 +348,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "gebouwen_overdekt",
       "type": "fill",
       "source": "wm_vector",
@@ -369,7 +369,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "gebouwen_hoogbouw",
       "type": "fill",
       "source": "wm_vector",
@@ -402,7 +402,7 @@ var style_object = {
         "fill-outline-color": "#c9c7c2"
       }
     },
-    { 
+    {
       "id": "terein_binnentuin",
       "type": "fill",
       "source": "wm_vector",
@@ -414,7 +414,7 @@ var style_object = {
         "fill-outline-color": "#c9c7c2"
       }
     },
-    { 
+    {
       "id": "weg_startbaan_landingsbaan",
       "type": "fill",
       "source": "wm_vector",
@@ -465,8 +465,8 @@ var style_object = {
             [13, 2],
             [14, 3],
             [15, 4]
-            
-            
+
+
           ]
         },
         "line-dasharray": [2,3]
@@ -598,7 +598,7 @@ var style_object = {
             [12, 4],
             [13, 5],
             [14, 6]
-            
+
           ]
         }
       }
@@ -620,7 +620,7 @@ var style_object = {
             [12, 3],
             [13, 4],
             [14, 5]
-            
+
           ]
         }
       }
@@ -642,7 +642,7 @@ var style_object = {
             [12, 2],
             [13, 3],
             [14, 4]
-            
+
           ]
         }
       }
@@ -686,12 +686,12 @@ var style_object = {
             [12, 1],
             [13, 0.75],
             [14, 0.75]
-            
+
           ]
         }
       }
     },
-    { 
+    {
       "id": "terein0_erf",
       "type":"fill",
       "source": "wm_vector",
@@ -710,7 +710,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "terein0_groen",
       "type":"fill",
       "source": "wm_vector",
@@ -723,7 +723,7 @@ var style_object = {
         "fill-color": "#DCEACF"
       }
     },
-    { 
+    {
       "id": "terein0_verharding",
       "type":"fill",
       "source": "wm_vector",
@@ -736,7 +736,7 @@ var style_object = {
         "fill-color": "#FFFFFF"
       }
     },
-    { 
+    {
       "id": "terein0_harlf_verharding",
       "type":"fill",
       "source": "wm_vector",
@@ -749,7 +749,7 @@ var style_object = {
         "fill-color": "#F4F6F6"
       }
     },
-    { 
+    {
       "id": "terein0_bos",
       "type": "fill",
       "source": "wm_vector",
@@ -762,8 +762,8 @@ var style_object = {
         "fill-color": "#cbe0b8"
       }
     },
-      
-    { 
+
+    {
       "id": "overbruggingsdeel",
       "type":"fill",
       "source": "wm_vector",
@@ -775,8 +775,8 @@ var style_object = {
         "fill-outline-color": "#ffffff"
       }
     },
-    
-    { 
+
+    {
       "id" : "wegdeel_rijbanen_case",
       "type": "line",
       "source": "wm_vector",
@@ -801,8 +801,8 @@ var style_object = {
         "fill-color" : "#FFFFFF"
       }
     },
-    
-    { 
+
+    {
       "id" : "wegdeel_voetgangers_case",
       "type": "line",
       "source": "wm_vector",
@@ -815,7 +815,7 @@ var style_object = {
         "line-color" : "#C9C7C2"
       }
     },
-    { 
+    {
       "id" : "wegdeel_voetgangers_fill",
       "type": "fill",
       "source": "wm_vector",
@@ -827,7 +827,7 @@ var style_object = {
         "fill-color" : "#F2ECEE"
       }
     },
-    { 
+    {
       "id" : "wegdeel_berm_case",
       "type": "line",
       "source": "wm_vector",
@@ -840,7 +840,7 @@ var style_object = {
         "line-color" : "#C9C7C2"
       }
     },
-    { 
+    {
       "id" : "wegdeel_berm_fill",
       "type": "fill",
       "source": "wm_vector",
@@ -856,7 +856,7 @@ var style_object = {
         "fill-color" : "#F2ECEE"
       }
     },
-    { 
+    {
       "id" : "wegdeel_berm_fill2",
       "type": "fill",
       "source": "wm_vector",
@@ -872,7 +872,7 @@ var style_object = {
         "fill-color" : "#DCEACF"
       }
     },
-    { 
+    {
       "id": "inrichtingselement_vlak0",
       "type":"fill",
       "source": "wm_vector",
@@ -895,7 +895,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id" : "wegdeel_autosnelweg_case",
       "type": "line",
       "source": "wm_vector",
@@ -908,7 +908,7 @@ var style_object = {
         "line-color" : "#FA0000"
       }
     },
-    { 
+    {
       "id" : "wegdeel_autosnelweg_case1",
       "type": "line",
       "source": "wm_vector",
@@ -933,7 +933,7 @@ var style_object = {
         "fill-color" : "#FEFAFA"
       }
     },
-    
+
     {
       "id" : "wegdeel_autosnelweg_fill1",
       "type": "fill",
@@ -958,7 +958,7 @@ var style_object = {
         "line-width": 2
       }
     },
-    { 
+    {
       "id": "gebouwen0",
       "type":"fill",
       "source": "wm_vector",
@@ -994,7 +994,7 @@ var style_object = {
       }
     },
 
-    { 
+    {
       "id": "terein1_erf",
       "type":"fill",
       "source": "wm_vector",
@@ -1013,7 +1013,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "terein1_groen",
       "type":"fill",
       "source": "wm_vector",
@@ -1026,7 +1026,7 @@ var style_object = {
         "fill-color": "#DCEACF"
       }
     },
-    { 
+    {
       "id": "terein1_verharding",
       "type":"fill",
       "source": "wm_vector",
@@ -1039,7 +1039,7 @@ var style_object = {
         "fill-color": "#FFFFFF"
       }
     },
-    { 
+    {
       "id": "terein1_harlf_verharding",
       "type":"fill",
       "source": "wm_vector",
@@ -1052,7 +1052,7 @@ var style_object = {
         "fill-color": "#F4F6F6"
       }
     },
-    { 
+    {
       "id": "terein1_bos",
       "type": "fill",
       "source": "wm_vector",
@@ -1065,7 +1065,7 @@ var style_object = {
         "fill-color": "#cbe0b8"
       }
     },
-    { 
+    {
       "id" : "wegdeel1_rijbanen_case",
       "type": "line",
       "source": "wm_vector",
@@ -1090,7 +1090,7 @@ var style_object = {
         "fill-color" : "#FFFFFF"
       }
     },
-    { 
+    {
       "id" : "wegdeel1_voetgangers_case",
       "type": "line",
       "source": "wm_vector",
@@ -1103,7 +1103,7 @@ var style_object = {
         "line-color" : "#C9C7C2"
       }
     },
-    { 
+    {
       "id" : "wegdeel1_voetgangers_fill",
       "type": "fill",
       "source": "wm_vector",
@@ -1115,7 +1115,7 @@ var style_object = {
         "fill-color" : "#F2ECEE"
       }
     },
-    { 
+    {
       "id" : "wegdeel1_berm_case",
       "type": "line",
       "source": "wm_vector",
@@ -1128,7 +1128,7 @@ var style_object = {
         "line-color" : "#C9C7C2"
       }
     },
-    { 
+    {
       "id" : "wegdeel_berm1_fill",
       "type": "fill",
       "source": "wm_vector",
@@ -1144,7 +1144,7 @@ var style_object = {
         "fill-color" : "#F2ECEE"
       }
     },
-    { 
+    {
       "id" : "wegdeel_berm1_fill2",
       "type": "fill",
       "source": "wm_vector",
@@ -1160,7 +1160,7 @@ var style_object = {
         "fill-color" : "#DCEACF"
       }
     },
-    { 
+    {
       "id": "inrichtingselement_vlak1 ",
       "type":"fill",
       "source": "wm_vector",
@@ -1195,7 +1195,7 @@ var style_object = {
         "line-width": 3
       }
     },
-    { 
+    {
       "id": "gebouwen1 ",
       "type":"fill",
       "source": "wm_vector",
@@ -1230,7 +1230,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "terein2",
       "type":"fill",
       "source": "wm_vector",
@@ -1272,7 +1272,7 @@ var style_object = {
         }
       }
     },
-        { 
+        {
       "id" : "wegdeel2_rijbanen_case",
       "type": "line",
       "source": "wm_vector",
@@ -1297,7 +1297,7 @@ var style_object = {
         "fill-color" : "#FFFFFF"
       }
     },
-    { 
+    {
       "id" : "wegdeel2_voetgangers_case",
       "type": "line",
       "source": "wm_vector",
@@ -1310,7 +1310,7 @@ var style_object = {
         "line-color" : "#C9C7C2"
       }
     },
-    { 
+    {
       "id" : "wegdeel2_voetgangers_fill",
       "type": "fill",
       "source": "wm_vector",
@@ -1322,7 +1322,7 @@ var style_object = {
         "fill-color" : "#F2ECEE"
       }
     },
-    { 
+    {
       "id" : "wegdeel2_berm_case",
       "type": "line",
       "source": "wm_vector",
@@ -1335,7 +1335,7 @@ var style_object = {
         "line-color" : "#C9C7C2"
       }
     },
-{ 
+{
       "id" : "wegdeel_berm2_fill",
       "type": "fill",
       "source": "wm_vector",
@@ -1351,7 +1351,7 @@ var style_object = {
         "fill-color" : "#F2ECEE"
       }
     },
-    { 
+    {
       "id" : "wegdeel_berm2_fill2",
       "type": "fill",
       "source": "wm_vector",
@@ -1379,7 +1379,7 @@ var style_object = {
         "line-width": 3
       }
     },
-    { 
+    {
       "id": "gebouwen2 ",
       "type":"fill",
       "source": "wm_vector",
@@ -1414,7 +1414,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "inrichtingselement_vlak2 ",
       "type":"fill",
       "source": "wm_vector",
@@ -1436,7 +1436,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "terein3",
       "type":"fill",
       "source": "wm_vector",
@@ -1477,7 +1477,7 @@ var style_object = {
         }
       }
     },
-        { 
+        {
       "id" : "wegdeel3_rijbanen_case",
       "type": "line",
       "source": "wm_vector",
@@ -1502,7 +1502,7 @@ var style_object = {
         "fill-color" : "#FFFFFF"
       }
     },
-    { 
+    {
       "id" : "wegdeel3_voetgangers_case",
       "type": "line",
       "source": "wm_vector",
@@ -1515,7 +1515,7 @@ var style_object = {
         "line-color" : "#C9C7C2"
       }
     },
-    { 
+    {
       "id" : "wegdeel3_voetgangers_fill",
       "type": "fill",
       "source": "wm_vector",
@@ -1527,7 +1527,7 @@ var style_object = {
         "fill-color" : "#F2ECEE"
       }
     },
-    { 
+    {
       "id" : "wegdeel3_berm_case",
       "type": "line",
       "source": "wm_vector",
@@ -1540,7 +1540,7 @@ var style_object = {
         "line-color" : "#C9C7C2"
       }
     },
-    { 
+    {
       "id" : "wegdeel_berm3_fill",
       "type": "fill",
       "source": "wm_vector",
@@ -1556,7 +1556,7 @@ var style_object = {
         "fill-color" : "#F2ECEE"
       }
     },
-    { 
+    {
       "id" : "wegdeel_berm3_fill2",
       "type": "fill",
       "source": "wm_vector",
@@ -1584,7 +1584,7 @@ var style_object = {
         "line-width": 3
       }
     },
-    { 
+    {
       "id": "gebouwen3 ",
       "type":"fill",
       "source": "wm_vector",
@@ -1619,7 +1619,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "terein4",
       "type":"fill",
       "source": "wm_vector",
@@ -1672,7 +1672,7 @@ var style_object = {
         "line-width": 3
       }
     },
-    { 
+    {
       "id": "gebouwen4 ",
       "type":"fill",
       "source": "wm_vector",
@@ -1707,7 +1707,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "tunnelcontour",
       "type": "line",
       "source": "wm_vector",
@@ -1721,7 +1721,7 @@ var style_object = {
       }
     },
 
-    { 
+    {
       "id": "weg_smalle_weg-case",
       "type": "line",
       "source": "wm_vector",
@@ -1733,7 +1733,7 @@ var style_object = {
         "line-width": 3
       }
     },
-    { 
+    {
       "id": "weg_smalle_weg-fill",
       "type": "line",
       "source": "wm_vector",
@@ -1747,7 +1747,7 @@ var style_object = {
     },
 
 
-    { 
+    {
       "id": "SBL_metro_in_tunnel",
       "type": "line",
       "source": "wm_vector",
@@ -1782,7 +1782,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "SBL_trein_in_tunnel_case",
       "type": "line",
       "source": "wm_vector",
@@ -1797,7 +1797,7 @@ var style_object = {
             [10, 3],
             [14, 4],
             [15, 5]
-            
+
           ]
         },
         "line-dasharray": {
@@ -1809,7 +1809,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "SBL_trein_in_tunnel_fill",
       "type": "line",
       "source": "wm_vector",
@@ -1824,7 +1824,7 @@ var style_object = {
             [10, 3],
             [14, 4],
             [15, 5]
-            
+
           ]
         },
         "line-dasharray": {
@@ -1836,7 +1836,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "SBL_tram_in_tunnel",
       "type": "line",
       "source": "wm_vector",
@@ -1922,7 +1922,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "SBL_tram",
       "type": "line",
       "source": "wm_vector",
@@ -2607,7 +2607,7 @@ var style_object = {
         }
       }
     },
-    
+
     { "id": "trein_line2",
       "type":  "line",
       "source": "wm_vector",
@@ -2740,7 +2740,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "weg_hartlijn_case",
       "type": "line",
       "source": "wm_vector",
@@ -2761,7 +2761,7 @@ var style_object = {
         }
       }
     },
-    { 
+    {
       "id": "weg_hartlijn_fill",
       "type": "line",
       "source": "wm_vector",
@@ -2783,18 +2783,85 @@ var style_object = {
       }
     }
   ]
-}
+};
+
+var style_object_vakken = {
+  "version": 8,
+  "name": "vakken",
+  "sources": {
+    "wm_vector":{
+      "type": "vector",
+      "tiles": [
+	"http://127.0.0.1:8080/maps/vakken/vakken/{z}/{x}/{y}.pbf"
+      ]
+    }
+  },
+  "layers":[
+    {
+      "id":  "background",
+      "type": "background",
+      "paint": {
+        "background-color":"#FFFFFF"
+      }
+    },
+    {
+      "id": "vakken",
+      "type": "fill-extrusion",
+      "source": "wm_vector",
+      "source-layer": "vakken",
+      "maxzoom": 21,
+      "minzoom": 0,
+      "paint": {
+	"fill-extrusion-base": 0,
+	"fill-extrusion-height": {
+		"property": 'scan_count',
+		    "stops": [
+			[{zoom: 12, value: 1}, 1],
+			[{zoom: 12, value: 3500}, 2000],
+			[{zoom: 14, value: 1}, 1],
+			[{zoom: 14, value: 3500}, 2000]
+		    ]
+	},
+	"fill-extrusion-color": {
+		"property": 'scan_count',
+		"stops": [
+			[1, "rgb(0,41,81)"],
+			[106, "rgb(1,19,157)"],
+			[109, "rgb(4,37,212)"],
+			[202, "rgb(6,74,243)"],
+			[205, "rgb(13,149,233)"],
+			[208, "rgb(25,207,210)"],
+			[301, "rgb(130,253,206)"],
+			[304, "rgb(104,222,134)"],
+			[307, "rgb(164,235,79)"],
+			[400, "rgb(255,255,128)"],
+			[403, "rgb(255,214,0)"],
+			[505, "rgb(254,173,91)"],
+			[508, "rgb(250,124,1)"],
+			[703, "rgb(254,0,0)"],
+			[706, "rgb(129,0,65)"],
+			[807, "rgb(65,0,64)"]
+		]
+	},
+	"fill-extrusion-opacity": {
+		"base": 1,
+		"stops": [[12,0],[12.5,0.8],[14,0.62]]
+    	}
+      }
+    }
+  ]
+};
 
 //Initialize Map
 
 var map = new mapboxgl.Map({
     container: "map",
     hash: true,
-    style: style_object,
+    style: style_object_vakken,
     zoom: 11,
     pitch: 60,
     bearing: 62.4,
-    center: [ 4.8, 52.4]
+    center: [4.8, 52.4]
 });
 
 // Add zoom and rotation controls to the map.
