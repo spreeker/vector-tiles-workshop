@@ -2785,17 +2785,25 @@ var style_object = {
   ]
 };
 
-var style_object_vakken = {
+var style_object_scans = {
   "version": 8,
   "name": "vakken",
   "sources": {
-    "wm_vector":{
+    "wegdeel":{
       "type": "vector",
       "tiles": [
-	"http://127.0.0.1:8080/maps/vakken/vakken/{z}/{x}/{y}.pbf"
+	"http://127.0.0.1:8080/maps/vakken/wegdeel/{z}/{x}/{y}.pbf"
+      ]
+    },
+     "vakken":{
+      "type": "vector",
+      "tiles": [
+	"http://127.0.0.1:8080/maps/vakken/vakken/{z}/{x}/{y}.pbf",
       ]
     }
+
   },
+
   "layers":[
     {
       "id":  "background",
@@ -2804,51 +2812,106 @@ var style_object_vakken = {
         "background-color":"#FFFFFF"
       }
     },
+
+
     {
       "id": "vakken",
       "type": "fill-extrusion",
-      "source": "wm_vector",
+      "source": "vakken",
       "source-layer": "vakken",
       "maxzoom": 21,
       "minzoom": 0,
       "paint": {
-	"fill-extrusion-base": 0,
-	"fill-extrusion-height": {
-		"property": 'scan_count',
-		    "stops": [
-			[{zoom: 12, value: 1}, 1],
-			[{zoom: 12, value: 3500}, 2000],
-			[{zoom: 14, value: 1}, 1],
-			[{zoom: 14, value: 3500}, 2000]
-		    ]
-	},
-	"fill-extrusion-color": {
-		"property": 'scan_count',
-		"stops": [
-			[1, "rgb(0,41,81)"],
-			[106, "rgb(1,19,157)"],
-			[109, "rgb(4,37,212)"],
-			[202, "rgb(6,74,243)"],
-			[205, "rgb(13,149,233)"],
-			[208, "rgb(25,207,210)"],
-			[301, "rgb(130,253,206)"],
-			[304, "rgb(104,222,134)"],
-			[307, "rgb(164,235,79)"],
-			[400, "rgb(255,255,128)"],
-			[403, "rgb(255,214,0)"],
-			[505, "rgb(254,173,91)"],
-			[508, "rgb(250,124,1)"],
-			[703, "rgb(254,0,0)"],
-			[706, "rgb(129,0,65)"],
-			[807, "rgb(65,0,64)"]
-		]
-	},
-	"fill-extrusion-opacity": {
-		"base": 1,
-		"stops": [[12,0],[12.5,0.8],[14,0.62]]
+        "fill-extrusion-base": 0,
+        "fill-extrusion-height": {
+        	"property": 'scans_n',
+        	    "stops": [
+        		[{zoom: 12, value: 1}, 1],
+        		[{zoom: 12, value: 3500}, 1000],
+        		[{zoom: 14, value: 1}, 1],
+        		[{zoom: 14, value: 1500}, 1000]
+        	    ]
+        },
+        "fill-extrusion-color": {
+        	"property": 'scans_n',
+        	"stops": [
+        		[1, "rgb(0,41,81)"],
+        		[106, "rgb(1,19,157)"],
+        		[109, "rgb(4,37,212)"],
+        		[202, "rgb(6,74,243)"],
+        		[205, "rgb(13,149,233)"],
+        		[208, "rgb(25,207,210)"],
+        		[301, "rgb(130,253,206)"],
+        		[304, "rgb(104,222,134)"],
+        		[307, "rgb(164,235,79)"],
+        		[400, "rgb(255,255,128)"],
+        		[403, "rgb(255,214,0)"],
+        		[505, "rgb(254,173,91)"],
+        		[508, "rgb(250,124,1)"],
+        		[703, "rgb(254,0,0)"],
+        		[706, "rgb(129,0,65)"],
+        		[807, "rgb(65,0,64)"]
+        	]
+        },
+
+
+        "fill-extrusion-opacity": {
+        	"base": 1,
+        	"stops": [[12,1],[12.5,0.9],[14,0.82]]
     	}
       }
-    }
+    },
+
+
+    //{
+    //  "id": "wegdeel",
+    //  "type": "fill-extrusion",
+    //  "source": "wegdeel",
+    //  "source-layer": "wegdeel",
+    //  "maxzoom": 24,
+    //  "minzoom": 0,
+
+    //  "paint": {
+    //    "fill-extrusion-base": 0,
+    //    "fill-extrusion-height": {
+    //    	"property": 'scan_to_size',
+    //    	    "stops": [
+    //    		[{zoom: 12, value: 1}, 1],
+    //    		[{zoom: 12, value: 150}, 1000],
+    //    		[{zoom: 14, value: 1}, 1],
+    //    		[{zoom: 14, value: 150}, 1000]
+    //    	    ]
+    //    },
+
+    //    "fill-extrusion-color": {
+    //    	"property": 'scan_to_size',
+    //    	"stops": [
+    //    		[1, "rgb(0,41,81)"],
+    //    		[16, "rgb(1,19,157)"],
+    //    		[19, "rgb(4,37,212)"],
+    //    		[22, "rgb(6,74,243)"],
+    //    		[25, "rgb(13,149,233)"],
+    //    		[28, "rgb(25,207,210)"],
+    //    		[31, "rgb(130,253,206)"],
+    //    		[34, "rgb(104,222,134)"],
+    //    		[37, "rgb(164,235,79)"],
+    //    		[40, "rgb(255,255,128)"],
+    //    		[43, "rgb(255,214,0)"],
+    //    		[55, "rgb(254,173,91)"],
+    //    		[58, "rgb(250,124,1)"],
+    //    		[73, "rgb(254,0,0)"],
+    //    		[76, "rgb(129,0,65)"],
+    //    		[87, "rgb(65,0,64)"]
+    //    	]
+    //    },
+
+    //    "fill-extrusion-opacity": {
+    //    	"base": 1,
+    //    	"stops": [[12,0],[12.5,0.8],[14,0.62]]
+    //	}
+    //  }
+    //}
+
   ]
 };
 
@@ -2857,12 +2920,66 @@ var style_object_vakken = {
 var map = new mapboxgl.Map({
     container: "map",
     hash: true,
-    style: style_object_vakken,
-    zoom: 11,
+    style: style_object_scans,
+    zoom: 14,
     pitch: 60,
-    bearing: 62.4,
-    center: [4.8, 52.4]
+    bearing: 60.4,
+    center: [4.88, 52.35]
 });
 
 // Add zoom and rotation controls to the map.
-map.addControl(new mapboxgl.NavigationControl(), "top-left");
+//map.addControl(new mapboxgl.NavigationControl(), "top-left");
+var targets = [
+	[4.894, 52.375 ], //CS
+	[4.857, 52.384 ], //garage
+	[4.874, 52.358 ], //vondel
+	[4.917, 52.344 ], //pijp / amstel
+	[4.947, 52.364 ], //java eiland
+	[4.938, 52.398 ], //noord winkelcentrum
+];
+
+var i = 0;
+
+
+function movearound(){
+
+	setTimeout(function(){
+
+		if(i == targets.length) {
+			i = 0;
+		}
+
+		if(map.isMoving()){
+			//lets wait
+			setTimeout(movearound(), 5000);
+		}
+
+
+		map.flyTo({
+			// These options control the ending camera position: centered at
+			// the target, at zoom level 9, and north up.
+			center: targets[i],
+			zoom: 15,
+			bearing: 0,
+
+			// These options control the flight curve, making it move
+			// slowly and zoom out almost completely before starting
+			// to pan.
+			speed: 0.03, // make the flying slow
+			curve: 1.8, // change the speed at which it zooms out
+
+			// This can be any easing function: it takes a number between
+			// 0 and 1 and returns another number between 0 and 1.
+			easing: function (t) {
+			    return t;
+			}
+		});
+
+		i++;
+
+		movearound();
+
+	}, 10000);
+}
+
+setTimeout(movearound, 10000);
