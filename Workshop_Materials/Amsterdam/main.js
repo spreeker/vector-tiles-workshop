@@ -2827,30 +2827,33 @@ var style_object_scans = {
         	"property": 'scans_n',
         	    "stops": [
         		[{zoom: 12, value: 1}, 1],
-        		[{zoom: 12, value: 3500}, 1000],
+        		[{zoom: 12, value: 3500}, 500],
         		[{zoom: 14, value: 1}, 1],
-        		[{zoom: 14, value: 1500}, 1000]
+        		[{zoom: 14, value: 1500}, 500]
         	    ]
         },
         "fill-extrusion-color": {
         	"property": 'scans_n',
         	"stops": [
-        		[1, "rgb(0,41,81)"],
-        		[106, "rgb(1,19,157)"],
-        		[109, "rgb(4,37,212)"],
-        		[202, "rgb(6,74,243)"],
-        		[205, "rgb(13,149,233)"],
-        		[208, "rgb(25,207,210)"],
-        		[301, "rgb(130,253,206)"],
-        		[304, "rgb(104,222,134)"],
-        		[307, "rgb(164,235,79)"],
-        		[400, "rgb(255,255,128)"],
-        		[403, "rgb(255,214,0)"],
-        		[505, "rgb(254,173,91)"],
-        		[508, "rgb(250,124,1)"],
-        		[703, "rgb(254,0,0)"],
-        		[706, "rgb(129,0,65)"],
-        		[807, "rgb(65,0,64)"]
+        		//[1,   "rgb(0,141,81)"],
+        		[1,   "rgb(1,21, 41)"],
+        		[50,  "rgb(1,41, 81)"],
+        		[75, "rgb(1,19,157)"],
+        		[100, "rgb(4,37,212)"],
+        		[132, "rgb(6,74,243)"],
+        		[155, "rgb(13,149,233)"],
+        		[188, "rgb(25,207,210)"],
+        		[211, "rgb(130,253,206)"],
+        		[244, "rgb(104,222,134)"],
+        		[277, "rgb(164,235,79)"],
+        		[300, "rgb(255,255,128)"],
+        		[333, "rgb(255,214,0)"],
+        		[455, "rgb(254,173,91)"],
+        		[488, "rgb(250,124,1)"],
+        		[633, "rgb(254,0,0)"],
+        		[666, "rgb(129,0,65)"],
+        		[707, "rgb(65,0,64)"],
+        		[857, "rgb(35,0,34)"]
         	]
         },
 
@@ -2923,23 +2926,28 @@ var map = new mapboxgl.Map({
     style: style_object_scans,
     zoom: 14,
     pitch: 60,
-    bearing: 60.4,
+    bearing: 60,
     center: [4.88, 52.35]
 });
 
 // Add zoom and rotation controls to the map.
 //map.addControl(new mapboxgl.NavigationControl(), "top-left");
 var targets = [
-	[4.894, 52.375 ], //CS
-	[4.857, 52.384 ], //garage
-	[4.874, 52.358 ], //vondel
-	[4.917, 52.344 ], //pijp / amstel
-	[4.947, 52.364 ], //java eiland
-	[4.938, 52.398 ], //noord winkelcentrum
+	//# coordinates  bearing zoom time
+	[[4.88,  52.35],       60, 14,  5],   //back at page start
+	[[4.904, 52.373],     0,   17,  30],   //CS
+	[[4.857, 52.384],     30,  17,  38],   //garage
+	[[4.874, 52.358],     -30, 17,  40],   //vondel
+	[[4.917, 52.344],     90,  17,  40],   //pijp / amstel
+	[[4.947, 52.384],     -120,17,  30],   //java eiland
+	[[4.938, 52.398],     150, 17,  20],   //noord winkelcentrum
+	[[4.88,  52.35],       60, 14,  40],   //back at page start
 ];
 
-var i = 0;
 
+var i = 0;
+var nextmove = 0;
+var timeneeded = 2;
 
 function movearound(){
 
@@ -2951,21 +2959,23 @@ function movearound(){
 
 		if(map.isMoving()){
 			//lets wait
-			setTimeout(movearound(), 5000);
+			if(nextmove !== 0){
+				nextmove++;
+				movearound();
+				return;
+			}
 		}
-
 
 		map.flyTo({
 			// These options control the ending camera position: centered at
-			// the target, at zoom level 9, and north up.
-			center: targets[i],
-			zoom: 15,
-			bearing: 0,
+			center: targets[i][0],
+			zoom: targets[i][2],
+			bearing: targets[i][1],
 
 			// These options control the flight curve, making it move
 			// slowly and zoom out almost completely before starting
 			// to pan.
-			speed: 0.03, // make the flying slow
+			speed: 0.07, // make the flying slow
 			curve: 1.8, // change the speed at which it zooms out
 
 			// This can be any easing function: it takes a number between
@@ -2975,11 +2985,12 @@ function movearound(){
 			}
 		});
 
+		timeneeded = targets[i][3];
 		i++;
-
+		nextmove = 0;
 		movearound();
 
-	}, 10000);
+	}, timeneeded * 1000);
 }
 
 setTimeout(movearound, 10000);
