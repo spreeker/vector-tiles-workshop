@@ -2933,8 +2933,8 @@ var map = new mapboxgl.Map({
 // Add zoom and rotation controls to the map.
 //map.addControl(new mapboxgl.NavigationControl(), "top-left");
 var targets = [
-	//# coordinates  bearing zoom time
-	[[4.88,  52.35],       60, 14,  5],   //back at page start
+	//# coordinates    bearing zoom time
+	[[4.88,  52.35],       60, 14,  5],    //back at page start
 	[[4.904, 52.373],     0,   17,  30],   //CS
 	[[4.857, 52.384],     30,  17,  38],   //garage
 	[[4.874, 52.358],     -30, 17,  40],   //vondel
